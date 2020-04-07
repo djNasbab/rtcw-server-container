@@ -24,3 +24,6 @@ RUN wget -q http://entirely.pro/permanent/rtcw.tar.gz && \
 COPY server_config.cfg main/
 
 CMD ["php", "./entrypoint.php", "0.0.0.0", "27960"]
+
+EXPOSE 28960/tcp
+EXPOSE 27960/udp

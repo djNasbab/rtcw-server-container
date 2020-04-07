@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker run -d rtcw-server:latest
+docker run -d crossfire-community/rtcw-server:latest
